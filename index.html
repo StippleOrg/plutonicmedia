@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plutonic Media - Your Brand, Built Right</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: '#0F172A',
+                        slate: '#F8FAFC',
+                        gray: '#94A3B8'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white text-gray-800 font-sans leading-relaxed">
+
+    <!-- Hero Section -->
+    <header class="bg-navy text-white relative overflow-hidden">
+        <!-- Subtle geometric pattern -->
+        <div class="absolute inset-0 opacity-10">
+            <svg class="w-full h-full" fill="currentColor" viewBox="0 0 100 100">
+                <defs>
+                    <pattern id="geom" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                        <rect width="10" height="10" fill="currentColor"/>
+                        <rect x="10" y="10" width="10" height="10" fill="currentColor"/>
+                    </pattern>
+                </defs>
+                <rect width="100" height="100" fill="url(#geom)"/>
+            </svg>
+        </div>
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-24">
+            <!-- Nav -->
+            <nav class="flex justify-between items-center mb-8">
+                <div class="text-2xl font-bold">Plutonic Media</div>
+                <ul class="hidden md:flex space-x-6">
+                    <li><a href="#services" class="hover:underline">Services</a></li>
+                    <li><a href="#work" class="hover:underline">Work</a></li>
+                    <li><a href="#partners" class="hover:underline">Partners</a></li>
+                    <li><a href="#contact" class="hover:underline">Contact</a></li>
+                </ul>
+                <button class="md:hidden">Menu</button>
+            </nav>
+            <!-- Hero Content -->
+            <div class="text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6">Your brand, built right.</h1>
+                <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">Plutonic Media helps Nepal businesses design, launch, and grow online — from logo to full web presence to managed IT.</p>
+                <a href="#cta" class="bg-white text-navy px-8 py-4 rounded-lg font-semibold text-lg inline-block hover:bg-gray-100 transition">Get a Free Quote</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Everything your business needs to look and run professionally.</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-white border border-gray-200 rounded-lg p-6 text-center">
+                    <div class="text-4xl mb-4">🎨</div>
+                    <h3 class="text-xl font-semibold mb-2">Graphic & Logo Design</h3>
+                    <p class="mb-4">First impressions are permanent. We design identities that hold up.</p>
+                    <a href="#" class="text-navy underline text-sm">Learn more</a>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-white border border-gray-200 rounded-lg p-6 text-center">
+                    <div class="text-4xl mb-4">🌐</div>
+                    <h3 class="text-xl font-semibold mb-2">Web Design & Development</h3>
+                    <p class="mb-4">Fast, mobile-ready websites built for the way Nepali customers browse.</p>
+                    <a href="#" class="text-navy underline text-sm">Learn more</a>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-white border border-gray-200 rounded-lg p-6 text-center">
+                    <div class="text-4xl mb-4">📱</div>
+                    <h3 class="text-xl font-semibold mb-2">Social Media Marketing</h3>
+                    <p class="mb-4">Consistent content and campaigns that build an audience and drive inquiries.</p>
+                    <a href="#" class="text-navy underline text-sm">Learn more</a>
+                </div>
+                <!-- Card 4 -->
+                <div class="bg-white border border-gray-200 rounded-lg p-6 text-center">
+                    <div class="text-4xl mb-4">🖨️</div>
+                    <h3 class="text-xl font-semibold mb-2">Printing Services</h3>
+                    <p class="mb-4">Business cards, banners, brochures — print-ready files or full production.</p>
+                    <a href="#" class="text-navy underline text-sm">Learn more</a>
+                </div>
+                <!-- Card 5 -->
+                <div class="bg-white border border-gray-200 rounded-lg p-6 text-center">
+                    <div class="text-4xl mb-4">💻</div>
+                    <h3 class="text-xl font-semibold mb-2">PlutonicTech Web Development</h3>
+                    <p class="mb-4">Custom web apps and e-commerce solutions from our in-house dev team.</p>
+                    <a href="#" class="text-navy underline text-sm">Learn more</a>
+                </div>
+                <!-- Card 6 -->
+                <div class="bg-white border border-gray-200 rounded-lg p-6 text-center">
+                    <div class="text-4xl mb-4">☁️</div>
+                    <h3 class="text-xl font-semibold mb-2">Managed IT & Cloud (via Namaste Infotech)</h3>
+                    <p class="mb-4">Server management, cloud migration, and IT support so you can focus on the business.</p>
+                    <a href="#" class="text-navy underline text-sm">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Plutonic Section -->
+    <section class="py-20 bg-slate">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">One studio. Design, development, and IT under one roof.</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Block 1 -->
+                <div class="flex items-start space-x-4">
+                    <div class="text-4xl">🏔️</div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">Nepal-based team</h3>
+                        <p>We understand local business needs, timelines, and budgets.</p>
+                    </div>
+                </div>
+                <!-- Block 2 -->
+                <div class="flex items-start space-x-4">
+                    <div class="text-4xl">🔄</div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">End-to-end delivery</h3>
+                        <p>Brief to launch without handing off to three different vendors.</p>
+                    </div>
+                </div>
+                <!-- Block 3 -->
+                <div class="flex items-start space-x-4">
+                    <div class="text-4xl">🤝</div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">Backed by partners</h3>
+                        <p>PlutonicTech for dev, Namaste Infotech for IT — depth when you need it.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof Section -->
+    <section id="work" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Businesses that trust Plutonic Media.</h2>
+            <div class="grid md:grid-cols-3 gap-8 mb-12">
+                <!-- Testimonial 1 -->
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <!-- REPLACE PLACEHOLDERS WITH VERIFIED CLIENT QUOTES BEFORE PUBLISHING -->
+                    <blockquote class="italic mb-4">"Our new logo captured our vision perfectly and helped us stand out in Kathmandu."</blockquote>
+                    <cite class="not-italic font-semibold">[Client name], [business type], Kathmandu</cite>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <!-- REPLACE PLACEHOLDERS WITH VERIFIED CLIENT QUOTES BEFORE PUBLISHING -->
+                    <blockquote class="italic mb-4">"The team delivered our website on time with clear communication throughout."</blockquote>
+                    <cite class="not-italic font-semibold">[Client name], [business type]</cite>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <!-- REPLACE PLACEHOLDERS WITH VERIFIED CLIENT QUOTES BEFORE PUBLISHING -->
+                    <blockquote class="italic mb-4">"The web project boosted our online sales right away."</blockquote>
+                    <cite class="not-italic font-semibold">[Client name], [business type]</cite>
+                </div>
+            </div>
+            <!-- Client Logos -->
+            <div class="flex flex-wrap justify-center items-center space-x-8">
+                <!-- Placeholder divs for client logos -->
+                <div class="w-20 h-20 bg-gray-200 rounded flex items-center justify-center mb-4 md:mb-0">Client Logo 1</div>
+                <div class="w-20 h-20 bg-gray-200 rounded flex items-center justify-center mb-4 md:mb-0">Client Logo 2</div>
+                <div class="w-20 h-20 bg-gray-200 rounded flex items-center justify-center mb-4 md:mb-0">Client Logo 3</div>
+                <div class="w-20 h-20 bg-gray-200 rounded flex items-center justify-center mb-4 md:mb-0">Client Logo 4</div>
+                <div class="w-20 h-20 bg-gray-200 rounded flex items-center justify-center mb-4 md:mb-0">Client Logo 5</div>
+                <div class="w-20 h-20 bg-gray-200 rounded flex items-center justify-center mb-4 md:mb-0">Client Logo 6</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner Section -->
+    <section id="cta" class="bg-navy text-white py-16">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to build something that works?</h2>
+            <p class="text-xl mb-8">Tell us about your project. We will respond within one business day.</p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="#contact" class="bg-white text-navy px-8 py-4 rounded-lg font-semibold text-lg inline-block hover:bg-gray-100 transition">Get a Free Quote</a>
+                <a href="tel:+977-1-XXXXXXX" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold text-lg inline-block hover:bg-white hover:text-navy transition">Call Us</a>
+            </div>
+            <p class="mt-6 text-sm">Phone: +977-1-XXXXXXX | Email: info@plutonicmedia.com</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="contact" class="bg-navy text-gray py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <!-- Col 1: Company -->
+                <div>
+                    <div class="text-2xl font-bold text-white mb-4">Plutonic Media</div>
+                    <p class="text-gray mb-4">Creative and technology solutions for Nepal businesses.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray hover:text-white">Facebook</a>
+                        <a href="#" class="text-gray hover:text-white">Instagram</a>
+                        <a href="#" class="text-gray hover:text-white">LinkedIn</a>
+                    </div>
+                </div>
+                <!-- Col 2: Services -->
+                <div>
+                    <h3 class="text-lg font-semibold text-white mb-4">Services</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#services" class="text-gray hover:text-white">Graphic & Logo Design</a></li>
+                        <li><a href="#services" class="text-gray hover:text-white">Web Design</a></li>
+                        <li><a href="#services" class="text-gray hover:text-white">Social Media Marketing</a></li>
+                        <li><a href="#services" class="text-gray hover:text-white">Printing</a></li>
+                        <li><a href="#services" class="text-gray hover:text-white">Web Development</a></li>
+                        <li><a href="#services" class="text-gray hover:text-white">Managed IT</a></li>
+                    </ul>
+                </div>
+                <!-- Col 3: Partners -->
+                <div>
+                    <h3 class="text-lg font-semibold text-white mb-4">Partners</h3>
+                    <div class="mb-4">
+                        <h4 class="font-semibold text-white">PlutonicTech</h4>
+                        <p class="text-gray text-sm">Web-based design and development.</p>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-white">Namaste Infotech</h4>
+                        <p class="text-gray text-sm">Managed IT services and cloud solutions.</p>
+                    </div>
+                </div>
+                <!-- Col 4: Contact -->
+                <div>
+                    <h3 class="text-lg font-semibold text-white mb-4">Contact</h3>
+                    <p class="text-gray mb-2">Kathmandu, Nepal</p>
+                    <p class="text-gray mb-2">Phone: +977-1-XXXXXXX</p>
+                    <p class="text-gray mb-4">Email: info@plutonicmedia.com</p>
+                    <a href="#" class="text-gray hover:text-white">View on Google Maps</a>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 pt-4 text-center text-sm">
+                <p class="text-gray">Plutonic Media © 2026. All rights reserved.</p>
+                <p class="mt-2">Built by <a href="https://stipple.sh" class="text-gray hover:text-white">Stipple.sh</a></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
